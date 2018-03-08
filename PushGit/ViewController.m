@@ -17,8 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+	[self setUIConfig];
 }
 
+- (void)setUIConfig{
+	NSLog(@"%s",__func__);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
